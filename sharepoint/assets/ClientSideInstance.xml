@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <ClientSideComponentInstance
+        Title="KukDesignTemplate"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ComponentId="7d60c519-80ce-4b21-bc3a-b55f09979387"
+        Properties="{&quot;testMessage&quot;:&quot;Test message&quot;}">
+    </ClientSideComponentInstance>
+</Elements>

@@ -1,0 +1,26 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "kuk-design-template-client-side-solution",
+    "id": "eb204c7f-c049-41e8-b053-bbc8ed3af29e",
+    "version": "1.0.0.8",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": false,
+    "features": [
+      {
+        "title": "Application Extension - Deployment of custom action.",
+        "description": "Deploys a custom action with ClientSideComponentId association",
+        "id": "fb45a4b3-92d1-483a-b8c0-d93c9b524382",
+        "version": "1.0.0.5",
+        "assets": {
+          "elementManifests": [
+            "elements.xml"
+          ]
+        }
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/kuk-design-template.sppkg"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://dev19.dccs-demo.at/projects/KUKComm",
+      "customActions": {
+        "7d60c519-80ce-4b21-bc3a-b55f09979387": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    },
+    "kukDesignTemplate": {
+      "pageUrl": "https://dev19.dccs-demo.at/projects/KUKComm",
+      "customActions": {
+        "7d60c519-80ce-4b21-bc3a-b55f09979387": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    }
+  }
+}
